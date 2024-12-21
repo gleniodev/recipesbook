@@ -1,4 +1,4 @@
-# :sushi: &nbsp; Recipes Book - DevWeb@UFCG
+# :sushi: &nbsp; Recipes Book
 
 Recipes Book é um caderno de receitas virtual para armazenar e compartilhar seus pratos :spaghetti:&nbsp; e drinks&nbsp;:tropical_drink:.
 
