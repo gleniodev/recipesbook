@@ -1,0 +1,46 @@
+/*login*/
+.login .logos {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.segments-page {
+  padding: 80px 0 30px !important;
+}
+
+.login .logos {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 800px) {
+  .login .logos img {
+    width: 12rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .login .logos img {
+    width: 10rem;
+  }
+}
+
+.login .list .button {
+  margin-top: 0;
+}
+
+.login .forgot-link {
+  margin-top: 20px;
+}
+
+.login .register-link a {
+  color: #d00807;
+  text-decoration: underline;
+}
+
+.register-link {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}

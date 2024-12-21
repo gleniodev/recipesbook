@@ -1,0 +1,148 @@
+/*search*/
+.search.segments-page {
+  padding: 122px 0 30px;
+}
+
+.search .list ul li {
+  height: auto;
+  padding: 0;
+}
+
+.search .list ul::before,
+.search .list ul::after {
+  display: none;
+}
+
+.searchbar .input-clear-button::after {
+  line-height: 30px;
+}
+
+.search .searchbar-not-found .row {
+  margin-bottom: 0;
+}
+
+.search .searchbar-not-found .row:last-child .content-text {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border: 0;
+}
+
+.search .searchbar-not-found .row {
+  margin-bottom: 20px;
+}
+
+.search .searchbar-not-found .row:last-child {
+  margin-bottom: 0;
+}
+
+.search .searchbar-not-found .content {
+  position: relative;
+}
+
+.search .searchbar-not-found .content img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.search .searchbar-not-found .content i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  color: #fff;
+}
+
+.search .list .content-text .rate {
+  margin: 4px 0;
+}
+
+.search .list .content-text .rate i {
+  font-size: 18px;
+  color: #d00807;
+}
+
+.search .list .content-text .price {
+  color: #333;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.search .list .content-text .rate i:last-child {
+  color: #888;
+}
+
+.search .type-search {
+  margin-bottom: 20px;
+}
+
+.search .type-search ul::before {
+  display: none;
+}
+
+.search .type-search ul::after {
+  display: none;
+}
+
+.search .type-search ul li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.search .type-search ul li:last-child {
+  margin-bottom: 0;
+}
+
+.search .type-search ul li a {
+  color: #888;
+}
+
+.search .type-search ul li a i {
+  font-size: 18px;
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+.search .popular-search {
+  margin-bottom: 0;
+}
+
+.search .popular-search ul li i {
+  vertical-align: top;
+  color: #d00807;
+}
+
+/*searchbar*/
+.searchbar {
+  margin: 0;
+  height: 30px;
+  background: transparent;
+}
+
+.searchbar .searchbar-inner .searchbar-input-wrap input {
+  background: #eee;
+  border-radius: 6px;
+  padding-left: 50px;
+  font-size: 14px;
+}
+
+.searchbar .searchbar-inner .searchbar-input-wrap .searchbar-icon {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 10px;
+  margin-left: 0;
+}
+
+.searchbar .searchbar-inner .searchbar-input-wrap .input-clear-button {
+  width: 30px;
+  height: 30px;
+  margin-top: -16px;
+  right: 10px;
+}
+
+.page-content .searchbar {
+  box-shadow: none;
+  height: 38px;
+  margin: 0;
+}

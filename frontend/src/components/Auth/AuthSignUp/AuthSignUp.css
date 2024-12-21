@@ -1,0 +1,67 @@
+/*register*/
+.register .list .item-content {
+  padding-left: 0;
+}
+
+.register .list .item-content .icon {
+  margin-right: 10px;
+}
+
+.register .list .item-content .icon.icon-checkbox {
+  width: 15px;
+  height: 15px;
+}
+
+.register .list .item-content .icon.icon-checkbox::after {
+  width: 15px;
+  height: 15px;
+}
+
+.register .list .item-content .item-inner .item-title {
+  font-size: 13px;
+}
+
+.register .list .item-content .item-inner::after {
+  display: none;
+}
+
+.register .list .item-content.item-checkbox.active-state {
+  background: transparent;
+}
+
+.register .register-with {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.register .register-with p {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.register .register-with ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.register .register-with ul li a i {
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border-radius: 50%;
+  display: inline-block;
+  color: #fff;
+}
+
+.register .register-with ul li a i.ti-facebook {
+  background: #3b5999;
+}
+
+.register .register-with ul li a i.ti-twitter {
+  background: #55acee;
+}
+
+.register .register-with ul li a i.ti-google {
+  background: #dd4b39;
+}

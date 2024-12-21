@@ -1,0 +1,22 @@
+/*title header*/
+.title-header {
+  padding: 27px 0 15px;
+  font-size: 20px;
+  color: #000;
+}
+
+.title-header-text {
+  display: flex;
+  justify-content: center;
+}
+
+.title-header .icon-search {
+  text-align: right;
+}
+
+.title-header .icon-search i {
+  font-size: 22px;
+  position: absolute;
+  left: 20px;
+  top: 30px;
+}

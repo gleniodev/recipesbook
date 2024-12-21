@@ -1,0 +1,44 @@
+@media (max-width: 520px) {
+  .recipe-title {
+    width: 180px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media (max-width: 470px) {
+  .recipe-title {
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media (max-width: 410px) {
+  .recipe-title {
+    width: 170px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media (max-width: 390px) {
+  .recipe-title {
+    width: 140px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.recipe-title {
+  color: #000 !important;
+}
+
+.recipe-category {
+  text-decoration: none;
+  color: #000;
+}

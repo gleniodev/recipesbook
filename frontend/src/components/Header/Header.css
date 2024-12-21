@@ -1,0 +1,18 @@
+/*title header*/
+.main-header {
+  padding: 27px 0 15px;
+}
+
+.main-header .logos img {
+  width: 11rem;
+}
+
+.main-header .icon-search {
+  text-align: right;
+}
+
+.main-header .icon-search i {
+  font-size: 22px;
+  position: relative;
+  top: 10px;
+}

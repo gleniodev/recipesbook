@@ -1,0 +1,153 @@
+.restaurant .content {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.restaurant .actions {
+  font-size: 22px;
+  position: absolute;
+  right: 10px;
+  top: 30px;
+  color: #000;
+}
+
+.delete-link {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.restaurant .actions i {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.restaurant .content .mask {
+  background: linear-gradient(rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.5));
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 5px;
+}
+
+.restaurant .content img {
+  width: 100%;
+  height: 188px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.restaurant .content .title {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.restaurant .content .title h4 {
+  color: #fff;
+  font-size: 25px;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 450px) {
+  .restaurant .content .title h4 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 350px) {
+  .restaurant .content .title h4 {
+    font-size: 16px;
+  }
+}
+
+.restaurant .content .title span {
+  color: #fff;
+}
+
+.restaurant .content .title span i {
+  margin-right: 10px;
+}
+
+/*restaurant single*/
+.restaurant-single .header img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.restaurant-single .desc {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.restaurant-single .desc h4 {
+  margin-bottom: 8px;
+}
+
+.restaurant-single .desc span {
+  color: #888;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.restaurant-single .desc span i {
+  margin-right: 10px;
+}
+
+.restaurant-single .desc p {
+  color: #333;
+}
+
+.restaurant-single .resto-menu .content-image img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.restaurant-single .resto-menu .content-text h5 {
+  margin-bottom: 3px;
+}
+
+.restaurant-single .resto-menu .content-text .button-order {
+  padding: 3px 10px;
+  background: #d00807;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 12px;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.restaurant-single .resto-menu .content-text .button-order i {
+  margin-right: 8px;
+}
+
+.restaurant-single .resto-menu.new-menu {
+  padding-bottom: 25px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.subtitle {
+  font-size: 16px;
+}
+
+.share-link {
+  text-decoration: underline;
+  color: #d00807;
+}
+
+.red-icon {
+  color: #d00807;
+}
+
+.container-link {
+  display: flex;
+  justify-content: center;
+}
